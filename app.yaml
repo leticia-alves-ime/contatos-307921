@@ -1,0 +1,12 @@
+runtime : python3
+api_version : 1
+
+handlers:
+- url: /
+ static_files: /static
+
+- url: /
+ static_files: /templates
+
+- url: /
+ profilesscript: app.py 
